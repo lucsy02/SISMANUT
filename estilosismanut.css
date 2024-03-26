@@ -3,6 +3,17 @@
 	padding: 0;
 }
 
+#logo{
+	width: 15px;
+	margin: 5px;
+	padding: 2px;
+	position: relative;
+	border-radius: 20px;
+	right: 185px;
+	height: 55px;
+	
+
+}
 nav{
 	margin: 10px;
 }
