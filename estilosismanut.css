@@ -3,17 +3,6 @@
 	padding: 0;
 }
 
-#logo{
-	width: 15px;
-	margin: 5px;
-	padding: 2px;
-	position: relative;
-	border-radius: 20px;
-	right: 185px;
-	height: 55px;
-	
-
-}
 nav{
 	margin: 10px;
 }
@@ -30,5 +19,81 @@ a {
 
 ul{
 	list-style: none;
+}
+
+#header {
+	position: relative;
+	text-align: center;
+	background-color: #ffc107;
+
+}
+
+/*Cor de fundo do texto "Formulário de manutenção"*/
+.mb-4 {
+	background-color: #343a40;
+	color: #ffc107;
+	border-radius: 10px;
+	padding: 15px 15px 15px 15px; /*Preenchimento*/
+	}
+
+
+.botao{
+	margin-top: 5px;
+	position: relative;
+		
+}
+
+/*Rodapé*/
+footer {
+    background-color: #343a40;
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+
+/*nomes no Rodapé*/
+#nome1 {
+	position: relative;
+    font-family:'-apple-system'; font-size:15px; /* Fonte*/
+    color: White;
+    text-align: left;
+    right: -20px;
+}
+#nome2 {
+	position: relative;
+    font-family:'-apple-system'; font-size:15px; /* Fonte*/
+    color: White;
+    text-align: left;
+    right: -92px;
+}
+#nome3 {
+	position: relative;
+    font-family:'-apple-system'; font-size:15px; /* Fonte*/
+    color: White;
+    text-align: left;
+    right: -92px;
+	
+}
+
+/*Container.grid*/
+.container-grid {
+	display: grid; /*Define o elemento como um container de grid*/
+	gap: 60px 150px; /*Define o espaçamento entre os elementos*/
+	background-color: #343a40; /*Cor de fundo*/
+	position: relative; /*Posso colocar em qualquer lugar*/
+	border-radius: 10px; /*Borda*/
+	margin-top: 30px; /*Margem de cima no container*/
+	padding: 20px; /*Preenchimento*/
+	grid-template-columns: 150px 150px; /*Define quantas colunas e qual o tamanho delas na grid*/
+	justify-content: space-evenly; /*Itens distribuídos igualmente no espaço disponível*/
+
+
+}
+.grid-item {
+	background-color: #fff; /*Mudar para foto*/
+	border: 6px solid #ffc107; /*Cor da borda*/
+  	padding: 70px 50px; /*medida dos quadrados*/
+  	font-size: 30px; /*Mudar*/
+	border-radius: 10px; /*Borda dos quadrados*/
 }
 
