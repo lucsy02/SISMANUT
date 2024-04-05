@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--Required meta tags-->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><!--Tag para correto funcionamento do bootstrap-->
+
+<!--CSS-->
+<link rel="stylesheet" type="text/css" href="estilosismanut.css">
+
+<!--Bootstrap4-->
+<!-- Bootstrap CSS -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+<body>
+    <header>
+        <div id="header">
+            <h2>Cadastre o seu equipamento!</h2> 
+        </div> 
+    </header>
+
+    <nav class="navbar col-12 m-auto navbar-expand-lg navbar-dark bg-dark" style="z-index: 999;">
+        <div class="container-fluid col-11 m-auto">
+        <a class="navbar-brand" href="Newsismanut.html">SISMANUT</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent"> <!--Inicio Menu-->
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="Newsismanut.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Desenvolvedores.html">Sobre</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                Menu
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="Newsismanut.html">Home</a>
+                <a class="dropdown-item" href="Cadastros.html">Cadastros</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="Registros.html">Registros</a>
+              </div> <!--Fim Menu-->
+            </li>
+            </ul>
+          <form class="form-inline my-2 my-lg-0"> <!--Barra de pesquisa-->
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    
+    <div margin="5px"; class="container mt-5"> <!--Inicio Formulário-->
+        <h2 class="mb-4">Formulário de Manutenção</h2>
+        <form>
+            <div class="form-group">
+                <label for="nome_funcionario">Nome do funcionário</label>
+                <input type="text" class="form-control" id="nome_funcionario" name="nome_funcionario">
+              </div>
+          <div class="form-group">
+            <label for="data_manutencao">Data de Manutenção</label>
+            <input type="date" class="form-control" id="data_manutencao" name="data_manutencao">
+          </div>
+          <div class="form-group">
+            <label for="codigo_equipamento">Código do Equipamento</label>
+            <input type="text" class="form-control" id="codigo_equipamento" name="codigo_equipamento">
+          </div>
+          <div class="form-group">
+            <label for="nome_equipamento">Nome do Equipamento</label>
+            <input type="text" class="form-control" id="nome_equipamento" name="nome_equipamento">
+          </div>
+          <div class="form-group">
+            <label for="data_proxima_manutencao">Data da Próxima Manutenção</label>
+            <input type="date" class="form-control" id="data_proxima_manutencao" name="data_proxima_manutencao">
+          </div>
+          
+          <button type="submit" class="btn btn-warning botao">Cadastrar</button>
+        </form>
+      </div><!--Fim Formulario-->
+      
+        
+      <footer>
+        <div id="Criadopor">
+            <h3 id="nome1">Criado por: André Willian Franzini Moreira</h3>
+              
+              <h3 id="nome2">Isabelle Schiefer</h3>
+              
+              <h3 id="nome3">Lucas Shiga Yaginuma</h3>
+        </div>
+    </footer>
+    
+</body>
+</html>
