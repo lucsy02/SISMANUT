@@ -97,3 +97,13 @@ footer {
 	border-radius: 10px; /*Borda dos quadrados*/
 }
 
+.escrita-h1{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	color: #ffc107;
+}
+
+.escrita-p{
+	font-family: 'Times New Roman', Times, serif;
+	color: #fcbd00;
+	font-size: large;
+}
